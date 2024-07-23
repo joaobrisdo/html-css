@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste imagem fundo</title>
+    <title>Imagem Fixa fundo</title>
     <style>
         body{
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            PODENDO FAZER UM SHORTHAND DO BACKGROUND SEQUENCIA.
+            color > imagem > position >repeat > [size[no momento do video não estava funcionando propriedade separada]] > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg ') center center no-repeat fixed;
             background-size: cover;
         }
         main{
@@ -21,12 +27,19 @@
             border-radius: 10px;
             margin: auto;
         }
+        
     </style>
 </head>
 <body>
     <main>
-        <h1>Teste imagem</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consequuntur explicabo totam voluptatem, perferendis, distinctio fugit, a deserunt soluta eius nostrum nesciunt dolorem atque fugiat repellendus ducimus maiores tempore error?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ea doloremque soluta quidem unde temporibus debitis eaque suscipit, nisi magni inventore ipsam mollitia provident voluptates voluptatem delectus, impedit, expedita perferendis!</p>
+        <h1 >Sequencia de shorthand</h1>
+        <p class="SHORTHAND SEQUENCIA">color > imagem > position > repeat ><b>[size]</b>>attachment.
+            <br><b>black url('imagem') center center no-repeat fixed;</b></br>
+            <b>background-size: cover;</b>
+            <br>[background-size ficou separado do SHORTHAND pq no momento do video não funcionou]</br>
+        </p>
+        <h2>Teste imagem</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consequuntur explicabo totam voluptatem, perferendis, distinctio fugit, a deserunt soluta eius nostrum nesciunt dolorem atque fugiat repellendus ducimus maiores tempore error?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ea doloremque soluta quidem unde temporibus debitis eaque suscipit, nisi magni inventore ipsam mollitia provident voluptates voluptatem delectus, impedit, expedita perferendis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consequuntur explicabo totam voluptatem, perferendis, distinctio fugit, a deserunt soluta eius nostrum nesciunt dolorem atque fugiat repellendus ducimus maiores tempore error?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ea doloremque soluta quidem unde temporibus debitis eaque suscipit, nisi magni inventore ipsam mollitia provident voluptates voluptatem delectus, impedit, expedita perferendis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consequuntur explicabo totam voluptatem, perferendis, distinctio fugit, a deserunt soluta eius nostrum nesciunt dolorem atque fugiat repellendus ducimus maiores tempore error?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ea doloremque soluta quidem unde temporibus debitis eaque suscipit, nisi magni inventore ipsam mollitia provident voluptates voluptatem delectus, impedit, expedita perferendis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consequuntur explicabo totam voluptatem, perferendis, distinctio fugit, a deserunt soluta eius nostrum nesciunt dolorem atque fugiat repellendus ducimus maiores tempore error?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ea doloremque soluta quidem unde temporibus debitis eaque suscipit, nisi magni inventore ipsam mollitia provident voluptates voluptatem delectus, impedit, expedita perferendis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consequuntur explicabo totam voluptatem, perferendis, distinctio fugit, a deserunt soluta eius nostrum nesciunt dolorem atque fugiat repellendus ducimus maiores tempore error?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ea doloremque soluta quidem unde temporibus debitis eaque suscipit, nisi magni inventore ipsam mollitia provident voluptates voluptatem delectus, impedit, expedita perferendis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consequuntur explicabo totam voluptatem, perferendis, distinctio fugit, a deserunt soluta eius nostrum nesciunt dolorem atque fugiat repellendus ducimus maiores tempore error?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ea doloremque soluta quidem unde temporibus debitis eaque suscipit, nisi magni inventore ipsam mollitia provident voluptates voluptatem delectus, impedit, expedita perferendis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consequuntur explicabo totam voluptatem, perferendis, distinctio fugit, a deserunt soluta eius nostrum nesciunt dolorem atque fugiat repellendus ducimus maiores tempore error?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ea doloremque soluta quidem unde temporibus debitis eaque suscipit, nisi magni inventore ipsam mollitia provident voluptates voluptatem delectus, impedit, expedita perferendis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consequuntur explicabo totam voluptatem, perferendis, distinctio fugit, a deserunt soluta eius nostrum nesciunt dolorem atque fugiat repellendus ducimus maiores tempore error?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ea doloremque soluta quidem unde temporibus debitis eaque suscipit, nisi magni inventore ipsam mollitia provident voluptates voluptatem delectus, impedit, expedita perferendis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consequuntur explicabo totam voluptatem, perferendis, distinctio fugit, a deserunt soluta eius nostrum nesciunt dolorem atque fugiat repellendus ducimus maiores tempore error?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ea doloremque soluta quidem unde temporibus debitis eaque suscipit, nisi magni inventore ipsam mollitia provident voluptates voluptatem delectus, impedit, expedita perferendis!</p>
     </main>
 </body>
 </html>
